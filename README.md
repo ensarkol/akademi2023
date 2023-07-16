@@ -18,15 +18,15 @@
 
 #### Commands used to push code to a Git repository
 
-   docker build -t akademi2023 .
+    docker build -t akademi2023 .
 
 #### Commands used to push a Docker Image to Docker Hub image repository
 
-   docker tag akademi2023 ensarkol/akademi2023:latest
-   docker image push ensarkol/akademi2023:latest
+    docker tag akademi2023 ensarkol/akademi2023:latest
+    docker image push ensarkol/akademi2023:latest
    
 #### Commands used to run and test the application
 
-  docker pull ensarkol/akademi2023:latest
-  docker run -d -p 5000:5000 ensarkol/akademi2023:latest
-  curl localhost:5000
+    docker pull ensarkol/akademi2023:latest
+    docker run -d -p 5000:5000 ensarkol/akademi2023:latest
+    curl localhost:5000
