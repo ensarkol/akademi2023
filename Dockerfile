@@ -6,7 +6,7 @@ COPY . .
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 8080
 
 CMD [ "python3","app.py","--host=0.0.0.0"]
 
